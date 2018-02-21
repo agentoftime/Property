@@ -22,19 +22,19 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="#home-section" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <a href="#mansion-head-section" class="nav-link">Wheatland Mansion</a>
+                <a href="wheatlandMansion.html" class="nav-link">Wheatland Mansion</a>
               </li>
               <li class="nav-item">
-                <a href="#kitchen-head-section" class="nav-link">Summer Kitchen</a>
+                <a href="summerKitchen.html" class="nav-link">Summer Kitchen</a>
               </li>
               <li class="nav-item">
-                <a href="#features-head-section" class="nav-link">Features</a>
+                <a href="features.html" class="nav-link">Features</a>
               </li>
               <li class="nav-item">
-                <a href="#map-head-section" class="nav-link">Map</a>
+                <a href="map.html" class="nav-link">Map</a>
               </li>
             </ul>
           </div>
@@ -76,11 +76,54 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
   </header>
 
+    <!-- MAIN FOOTER -->
+    <footer id="main-footer" class="bg-dark">
+            <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                <div class="py-3">
+                    <h1 class="h3">Wheatland Estate</h1>
+                    <button class="btn btn-success" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </footer>
+
+    <!-- CONTACT MODAL -->
+    <div class="modal fade text-dark" id="contactModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="contactModalTitle">Contact Us</h5>
+              <button class="close" data-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea class="form-control"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-success btn-block">Submit</button>
+            </div>
+          </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
